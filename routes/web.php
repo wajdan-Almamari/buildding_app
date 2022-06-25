@@ -30,4 +30,4 @@ Route::get('issues/list','IsuuesController@list');
 Route::get('test','IsuuesController@test');
 Route::post('issues/import','IsuuesController@importFromExcel');
 Route::view('issue-form','excel-import');
-Route::get('users','UsersController@export');
+//Route::get('users','UsersController@export');
